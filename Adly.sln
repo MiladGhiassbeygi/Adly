@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CC88558D-5180-4D6C-A790-6112264E7FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Core\Adly.Domain\Domain\Domain.csproj", "{F99206FE-249E-4004-B938-3C93AE2D9AE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0CAC576F-E457-4ED1-9343-0F90A3EA5558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{51A4E1C2-F3CE-435F-933C-99FCA1BC5345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adly.Domain.Tests", "test\Adly.Domain.Tests\Adly.Domain.Tests\Adly.Domain.Tests.csproj", "{0E6DAAEE-8500-420A-8E54-0CC33C61C139}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F99206FE-249E-4004-B938-3C93AE2D9AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99206FE-249E-4004-B938-3C93AE2D9AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99206FE-249E-4004-B938-3C93AE2D9AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99206FE-249E-4004-B938-3C93AE2D9AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6DAAEE-8500-420A-8E54-0CC33C61C139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6DAAEE-8500-420A-8E54-0CC33C61C139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6DAAEE-8500-420A-8E54-0CC33C61C139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E6DAAEE-8500-420A-8E54-0CC33C61C139}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC88558D-5180-4D6C-A790-6112264E7FD8} = {0CAC576F-E457-4ED1-9343-0F90A3EA5558}
+		{F99206FE-249E-4004-B938-3C93AE2D9AE3} = {CC88558D-5180-4D6C-A790-6112264E7FD8}
+		{0E6DAAEE-8500-420A-8E54-0CC33C61C139} = {51A4E1C2-F3CE-435F-933C-99FCA1BC5345}
+	EndGlobalSection
+EndGlobal
