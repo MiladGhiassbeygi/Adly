@@ -32,7 +32,7 @@ namespace Adly.Application.Features.User.Commands.Register
 
 
             var userCreateResult = await _userManager
-                .PasswordCreateAsync(user, cancellationToken);
+                .PasswordCreateAsync(user, request.Password, cancellationToken);
 
             if (userCreateResult.Succeeded)
                 return OperationResult<bool>.SuccessResult(true); //:todo Send Confirmation Email ;-)

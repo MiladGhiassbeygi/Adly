@@ -16,7 +16,8 @@ namespace Adly.Application.Features.User.Commands.Register
 
             RuleFor(c => c.RepeatPassword)
                 .NotEmpty()
-                .Equal(c => c.Password);
+                .Equal(c => c.Password)
+                .WithMessage("Password and Repeat Password must be same !");
 
             RuleFor(c => c.FirstName)
                 .NotEmpty();
@@ -26,6 +27,10 @@ namespace Adly.Application.Features.User.Commands.Register
 
             RuleFor(c => c.UserName)
                 .NotEmpty();
+
+            //RuleFor(c => c.PhoneNumber)
+            //    .NotEmpty()
+            //    .Matches(@"^\?[1-9]\d{1,14}$");
         }
     }
 }

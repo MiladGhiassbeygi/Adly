@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adly.Domain.Tests", "test\A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adly.Application", "src\Core\Adly.Application\Adly.Application\Adly.Application.csproj", "{3756A6AC-F94E-485B-A4F3-3B1801363454}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adly.Application.Tests", "test\Adly.Application.Tests\Adly.Application.Tests\Adly.Application.Tests.csproj", "{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3756A6AC-F94E-485B-A4F3-3B1801363454}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3756A6AC-F94E-485B-A4F3-3B1801363454}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3756A6AC-F94E-485B-A4F3-3B1801363454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +48,6 @@ Global
 		{F99206FE-249E-4004-B938-3C93AE2D9AE3} = {CC88558D-5180-4D6C-A790-6112264E7FD8}
 		{0E6DAAEE-8500-420A-8E54-0CC33C61C139} = {51A4E1C2-F3CE-435F-933C-99FCA1BC5345}
 		{3756A6AC-F94E-485B-A4F3-3B1801363454} = {CC88558D-5180-4D6C-A790-6112264E7FD8}
+		{C9787BB6-1C5B-4EC1-A677-48F1B5279CC7} = {51A4E1C2-F3CE-435F-933C-99FCA1BC5345}
 	EndGlobalSection
 EndGlobal
